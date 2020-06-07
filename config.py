@@ -18,6 +18,7 @@ POSTGRES = {
     'host': 'localhost',
     'port': '5432',
 }
+
 SECRET_KEY =  'A SECRET KEY'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 SQLALCHEMY_DATABASE_URI = 'postgresql://%(user)s:\
